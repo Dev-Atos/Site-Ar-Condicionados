@@ -712,7 +712,7 @@ progress {
 .row-cols-4 > * {
   flex: 0 0 auto;
   width: 25%;
-}
+}'
 
 .row-cols-5 > * {
   flex: 0 0 auto;
@@ -742,7 +742,7 @@ progress {
 .col-3 {
   flex: 0 0 auto;
   width: 25%;
-}
+}'
 
 .col-4 {
   flex: 0 0 auto;
@@ -11781,5 +11781,46 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .img-servicos {
-  width: 20rem;
+  width: 25rem;
+  height: 15rem
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .img-servicos {
+    width: 100%;
+    height: 15rem
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .img-servicos {
+    width: 100%;
+    height: 15rem
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .img-servicos {
+    width: 100%;
+    height: 15rem
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .img-servicos {
+    width: 100%;
+    height: 15rem
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .img-servicos {
+    width: 100%;
+    height: 15rem
+  }
 }
