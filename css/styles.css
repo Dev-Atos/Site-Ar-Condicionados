@@ -11412,7 +11412,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: var(--primario);
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/header-bg3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11784,6 +11784,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 25rem;
   height: 15rem
 }
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
