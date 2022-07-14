@@ -712,7 +712,7 @@ progress {
 .row-cols-4 > * {
   flex: 0 0 auto;
   width: 25%;
-}'
+}
 
 .row-cols-5 > * {
   flex: 0 0 auto;
@@ -742,7 +742,7 @@ progress {
 .col-3 {
   flex: 0 0 auto;
   width: 25%;
-}'
+}
 
 .col-4 {
   flex: 0 0 auto;
