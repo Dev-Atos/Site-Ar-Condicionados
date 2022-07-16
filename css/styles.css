@@ -13,6 +13,7 @@
 :root {
   --primario: #fae900;
   --primarioTransparent: rgba(250, 233, 0, 0.7);
+  --azul-primario: #0a348c;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -11778,6 +11779,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .footer {
+  background-color: var(--azul-primario);
+  height: 12rem;
+  max-height: 200px;
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11827,4 +11831,49 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 80%;
     height: 15rem;
   }
+}
+
+.wpp-logo {
+  width: 5%;
+  position:fixed;
+  bottom:30px;
+  right:30px; 
+}
+
+.footer-text {
+  color: #fff;
+}
+.footer-text h5{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.redes-sociais .facebook {
+  background-color: #3b5998;
+  border: none;
+}
+
+.redes-sociais .instagram {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
+}
+
+.redes-sociais .localizacao {
+  background-color: #de5500;
+  border: none;
+}
+
+.rede-social {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.rede-social p {
+  margin: 0;
 }
