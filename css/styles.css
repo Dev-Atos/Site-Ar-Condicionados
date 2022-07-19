@@ -12989,7 +12989,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   border-radius: 50%;
   padding: 5px;
   transition: 0.2s;
-  margin-right: 25%;
+  margin: 0 auto;
+  display: flex;
 }
 
 .fa-arrow-up:hover {

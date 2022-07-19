@@ -66,6 +66,6 @@ botaoEnviar.addEventListener("click", function () {
     if (emailTextArea.value.length == 0 || userName.value.length == 0) {
         alert("Preencha os campos!")
     } else {
-        botaoEnviar.setAttribute('href', `mailto:josevneves@outlook.com?subject=Or%C3% - ${userName.value}&body=${emailTextArea.value}`);
+        botaoEnviar.setAttribute('href', `mailto:josevneves@outlook.com?subject=Orçamento - ${userName.value}&body=${emailTextArea.value}`);
     }
 })
