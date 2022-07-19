@@ -52,3 +52,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+var emailTextArea = document.querySelector("#message")
+var botaoEnviar = document.querySelector("#botaoEnviar")
+var userName = document.querySelector("#nome")
+
+emailTextArea.addEventListener("keyup", function() {
+    emailContent = emailTextArea.value
+    botaoEnviar.setAttribute('href', `mailto:josevneves@outlook.com?subject=Or%C3% - ${userName.value}&body=${emailContent}`);
+})
+
+botaoEnviar.addEventListener("click", function () {
+    if (emailTextArea.value.length == 0 || userName.value.length == 0) {
+        alert("Preencha os campos!")
+    } else {
+        botaoEnviar.setAttribute('href', `mailto:josevneves@outlook.com?subject=Or%C3% - ${userName.value}&body=${emailTextArea.value}`);
+    }
+})
