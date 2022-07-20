@@ -13020,3 +13020,9 @@ background: -webkit-radial-gradient(bottom right, #0A358C, #0E6FFD);
 background: -moz-radial-gradient(bottom right, #0A358C, #0E6FFD);
 background: radial-gradient(to top left, #0A358C, #0E6FFD);
 }
+
+@media (max-width:992px) {
+  .voltar-topo {
+    margin-top: 3rem;
+  }
+}
