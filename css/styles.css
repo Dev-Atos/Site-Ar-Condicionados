@@ -12,7 +12,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  /* --primario: #0E6FFD; */
   --primario: #fae900;
+  
+  /* --primarioTransparent: rgba(14, 111, 253, 0.7); */
   --primarioTransparent: rgba(250, 233, 0, 0.7);
   --azul-primario: #0a348c;
   --bs-blue: #0d6efd;
@@ -12758,10 +12761,13 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  /* background-color: #212529;
+  background-image: url("../assets/img/header-bg3.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+  /* Created with https://www.css-gradient.com */
+/* Created with https://www.css-gradient.com */
+
 }
 
 section#contact .section-heading {
@@ -12824,7 +12830,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .footer {
-  background-color: var(--azul-primario);
+  /* background-color: var(--azul-primario); */
+  background: rgb(10,52,140);
+background: linear-gradient(0deg, rgba(10,52,140,1) 60%, rgba(255,255,255,0) 100%);
   height: 100%;
   max-height: none;
   text-align: center;
@@ -12975,7 +12983,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff;
   display: flex;
   flex-direction: row;
+  width: 200px;
 }
+
+/* .rede-social a {
+  margin: 0;
+} */
 
 .rede-social p {
   margin: 0;
@@ -12995,4 +13008,15 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .fa-arrow-up:hover {
   background-color: var(--primario);
+}
+
+.contact-desc {
+  color: #ccc;
+}
+
+.div-background {
+  background: #0A358C;
+background: -webkit-radial-gradient(bottom right, #0A358C, #0E6FFD);
+background: -moz-radial-gradient(bottom right, #0A358C, #0E6FFD);
+background: radial-gradient(to top left, #0A358C, #0E6FFD);
 }
