@@ -13,10 +13,12 @@
  */
 :root {
   /* --primario: #0E6FFD; */
-  --primario: #fae900;
+  --primario: #0d6efd;
+  /* --primario: #fae900; */
   
   /* --primarioTransparent: rgba(14, 111, 253, 0.7); */
-  --primarioTransparent: rgba(250, 233, 0, 0.7);
+  --primarioTransparent: rgba(13, 110, 253, 0.7);
+  /* --primarioTransparent: rgba(250, 233, 0, 0.7); */
   --azul-primario: #0a348c;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3274,22 +3276,22 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: var(--primarioTransparent);
+  border-color: var(--primarioTransparent);
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  background-color: var(--primario);
+  border-color: var(--primario);
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  background-color: var(--primario);
+  border-color: var(--primario);
+  box-shadow: 0 0 0 0.25rem var(--primario);
 }
 
 .btn-check:checked+.btn-primary,
@@ -3298,8 +3300,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cca000;
-  border-color: #bf9600;
+  background-color: var(--primario);
+  border-color: var(--primario);
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -3307,7 +3309,7 @@ fieldset:disabled .btn {
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  box-shadow: 0 0 0 0.25rem var(--primario);
 }
 
 .btn-primary:disabled,
@@ -12386,12 +12388,15 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: var(--primario);
+  color: var(--bs-body-bg);
   background-image: url("../assets/img/header-bg2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  /* background-size: 150vw; */
   background-size: cover;
+  /* background-color: #161616; */
+  height: 100vh;
 }
 
 header.masthead .masthead-subheading {
@@ -13025,4 +13030,8 @@ background: radial-gradient(to top left, #0A358C, #0E6FFD);
   .voltar-topo {
     margin-top: 3rem;
   }
+}
+
+.logoNavBar {
+  color: #000;
 }
