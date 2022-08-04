@@ -706,8 +706,6 @@ progress {
   .container-sm,
   .container {
     max-width: 540px;
-    padding-right: 0;
-    padding-left: 0;
   }
 }
 
@@ -12411,7 +12409,7 @@ header.masthead .masthead-subheading {
 }
 
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 2px var(--bs-body-color);
   font-weight: 700;
   line-height: 3.25rem;
