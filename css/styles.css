@@ -706,6 +706,8 @@ progress {
   .container-sm,
   .container {
     max-width: 540px;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
