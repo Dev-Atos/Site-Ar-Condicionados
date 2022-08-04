@@ -12605,6 +12605,10 @@ header.masthead .masthead-heading {
   border: 7px solid #e9ecef;
   border-radius: 100%;
   background-color: #ffc800;
+  transition: 0.2s;
+}
+.timeline>li .timeline-image:hover {
+  border-color: var(--primario);
 }
 
 .timeline>li .timeline-image h4,
@@ -13035,3 +13039,18 @@ background: radial-gradient(to top left, #0A358C, #0E6FFD);
 .logoNavBar {
   color: #000;
 }
+
+.card-servicos img {
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px var(--bs-gray-500);
+  transition: 0.2s;
+}
+
+@media (min-width:992px) {
+    .card-servicos img:hover {
+    width: 85%;
+    height: 16rem;
+    margin-bottom: -1rem;
+  }
+}
+
