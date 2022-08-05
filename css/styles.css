@@ -6285,8 +6285,8 @@ fieldset:disabled .btn {
   left: 0;
   z-index: 1055;
   display: none;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 95vh;
   overflow-x: hidden;
   overflow-y: auto;
   outline: 0;
@@ -12409,7 +12409,8 @@ header.masthead .masthead-subheading {
 }
 
 header.masthead .masthead-heading {
-  font-size: 3rem;
+  font-size: 2rem;
+  /* font-size: 3.25rem;e */
   text-shadow: 2px 2px 2px var(--bs-body-color);
   font-weight: 700;
   line-height: 3.25rem;
@@ -12496,8 +12497,8 @@ header.masthead .masthead-heading {
 }
 
 .portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
   text-align: center;
 }
 
@@ -13041,17 +13042,51 @@ background: radial-gradient(to top left, #0A358C, #0E6FFD);
   color: #000;
 }
 
+.card-servicos {
+  border-radius: 15px;
+  margin-bottom: 50px;
+  padding: 1rem 0 1rem 0;
+  transition: 0.2s;
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+
 .card-servicos img {
   border-radius: 15px;
   box-shadow: 5px 5px 10px var(--bs-gray-500);
   transition: 0.2s;
 }
 
+.card-servicos:hover {
+  background-color: var(--bs-gray-200);
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+
 @media (min-width:992px) {
-    .card-servicos img:hover {
+    .card-servicos:hover img {
     width: 85%;
     height: 16rem;
     margin-bottom: -1rem;
   }
 }
 
+.carousel-inner {
+  width: 94%;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.carousel-control-next {
+  right: -5rem;
+}
+.carousel-control-prev {
+  left: -5rem;
+}
+
+.card-texto {
+  width: 90%;
+  margin: 0 auto;
+}
